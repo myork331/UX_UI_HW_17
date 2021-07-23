@@ -1,0 +1,118 @@
+/*Global Styles---------------------*/
+body {
+    color: #343434;
+    font-family: beloved-script, sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+.header {
+    color: #195357;
+}
+
+a {
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.in-line {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+/* Nav Bar---------------------------*/
+.Header-inner {
+    background: #DED0B6;
+    color: white;
+    margin: 20px 0;
+    
+}
+
+[data-nc-base="header"] [data-nc-group="top"] {
+    display: none;
+}
+
+[data-nc-group] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+/*
+.Header-inner {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+}*/
+/*.logo {
+    float: left;
+}*/
+
+/*About/Profile---------------------*/
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+/*Skills---------------------*/
+.center {
+    text-align: center;
+}
+
+.skills-row {
+    background: #DED0B6;
+    color: white;
+    padding: 20px;
+}
+
+/*Work---------------------*/
+
+.container .box { 
+    width:540px; 
+    margin:50px; 
+    display:table; 
+} 
+.container .box .box-row { 
+    display:table-row; 
+} 
+.container .box .box-cell { 
+    display:table-cell; 
+    width:33%; 
+    padding:40px; 
+} 
+
+
+/*Contact Info/Footer---------------------*/
+footer {
+    background: #195357;
+    color: white;
+}
+.contact {
+    color:#F2D1CE;
+}
+
+.contact-list {
+    list-style-type: none;
+}
