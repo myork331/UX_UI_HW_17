@@ -75,7 +75,28 @@ h1 {
     display: flex;
     justify-content: center;
 }
+.responsive {
+  width: 1000px;
+  max-width: 2000px;
+  height: auto;
+  justify-content: center;
+  display: flex;
+  }
 
+ .responsive {
+   width: 800px;
+   max-width: 900px;
+   height: auto;
+   justify-content: center;
+   display: flex;
+    }
+.responsive {
+   width: 300px;
+   max-width: 400px;
+   height: auto;
+   justify-content: center;
+   display: flex;
+    }
 /*Skills---------------------*/
 .center {
     text-align: center;
